@@ -1,0 +1,29 @@
+.kana-cards-container {
+  display: flex;
+  gap: 4rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.kana-card {
+  background-color: #04101e;
+  border: 1px solid #212835;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-name {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  background-color: #04101e;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.card-character {
+  font-size: 5rem;
+  color: #ffffff;
+}
